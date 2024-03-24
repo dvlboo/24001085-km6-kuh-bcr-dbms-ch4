@@ -1,0 +1,22 @@
+{
+  "name": "bcr-dbms-ch4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "sty": "npx tailwindcss -i ./public/src/config.tailwind.css -o ./public/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "dvlboo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "nodemon": "^3.1.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1"
+  }
+}
